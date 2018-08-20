@@ -21,7 +21,17 @@ namespace SMBLibrary.Server
     public partial class SMBServer
     {
         public const int NetBiosOverTCPPort = 139;
-        public const int DirectTCPPort = 445;
+        
+        /// <summary>
+        /// Inherit from this class and override this value to listen on a different, non-standard port. This is useful
+        /// if, for instance, you would prefer not to run your software as a priveleged user. In this case you will
+        /// need to either have your clients connect to this different port, or use some other means of redirecting
+        /// traffic from the standard port to whichever one you choose. Note that this is only viable for Direct TCP
+        /// mode -- no equivalent facility exists for the NetBIOS based port 139 as that would require remapping ports
+        /// in both directions, handling both TCP and UDP forwarding, and remapping several ports rather than just this
+        /// one.
+        /// </summary>
+        public virtual int DirectTCPPort => 445;
         public const string NTLanManagerDialect = "NT LM 0.12";
         public const bool EnableExtendedSecurity = true;
         private const int InactivityMonitoringInterval = 30000; // Check every 30 seconds
