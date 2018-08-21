@@ -9,15 +9,15 @@
   <Import Project="..\packages\MSBuildTasks.1.5.0.235\build\MSBuildTasks.targets" Condition="Exists('..\packages\MSBuildTasks.1.5.0.235\build\MSBuildTasks.targets')" />
   <Target Name="Version" BeforeTargets="Build">
     <!--
-      Generate a new revision number based. We'll write this out to
-      AssemblyInfo.cs. In order to simplify uploading new builds to nuget.org,
-      the patch version has been incorporated into the minor version. So
-      upstream 1.3.4 => 1.34 here. This allows us to autogenerate the build
-      and revision fields when new builds are done, whilst giving directional
-      guidance on which upstream version the user can expect this build to
-      be based on.
+      Generate a new version number. The major, minor and build parts of the
+      number are listed out explicitly here, and will point to the version of
+      upstream that this version is based on. The Revision number will
+      auto-increment on each build.
+
+      As of right now, I am not including version.txt in version control, since
+      it would only create merge conflicts.
     -->
-    <Version BuildType="Automatic" RevisionType="Automatic" Major="1" Minor="34" VersionFile="version.txt">
+    <Version MajorType="None" MinorType="None" BuildType="None" RevisionType="BuildIncrement" Major="1" Minor="3" Build="4" VersionFile="version.txt">
       <Output TaskParameter="Major" PropertyName="Major" />
       <Output TaskParameter="Minor" PropertyName="Minor" />
       <Output TaskParameter="Build" PropertyName="Build" />
