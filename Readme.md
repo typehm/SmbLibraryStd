@@ -1,3 +1,28 @@
+About SmbLibraryStd:
+====================
+SmbLibraryStd is a fork of Tal Aloni's excellent
+[SMBLibrary](https://github.com/TalAloni/SMBLibrary). It contains a handful of
+minor but important changes:
+
+- It allows for overriding the listening port for Direct TCP mode, allowing for
+  unpriveleged execution, though please remember that you will need to
+  implement port-forwarding or simlar to use this. I will likely expose other
+  similar details to the public facing interface over time.
+- It has been ported to .NET Standard 2.0.
+- To simplify compliance with the LGPL licensing terms, I have made
+  pre-packaged binaries that are availble on Nuget. By using these packages,
+  you can be confident that you are not including any source code from
+  SmbLibraryStd in your project.
+
+To avoid confusion (and to match .net naming conventions), I have moved all
+classes to the SmbLibraryStd namespace.
+
+For reference, this code exists as fork based on the advice of SMBLibrary's
+author: Tal Aloni. Details are available
+[here](https://github.com/TalAloni/SMBLibrary/issues/8).
+
+The original Readme text for SMBLibrary follows:
+
 About SMBLibrary:
 =================
 SMBLibrary is an open-source C# SMB 1.0/CIFS, SMB 2.0 and SMB 2.1 server implementation.  
