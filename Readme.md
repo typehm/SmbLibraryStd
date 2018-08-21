@@ -21,6 +21,10 @@ For reference, this code exists as fork based on the advice of SMBLibrary's
 author: Tal Aloni. Details are available
 [here](https://github.com/TalAloni/SMBLibrary/issues/8).
 
+Packages for SmbLibraryStd are available on Nuget:
+
+[![NuGet](https://img.shields.io/nuget/v/SmbLibraryStd.svg?style=for-the-badge&label=nuget)](https://www.nuget.org/packages/SmbLibraryStd)
+
 The original Readme text for SMBLibrary follows:
 
 About SMBLibrary:
