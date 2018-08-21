@@ -10,7 +10,7 @@ using System.IO;
 using System.Text;
 using Utilities;
 
-namespace SMBLibrary.Services
+namespace SmbLibraryStd.Services
 {
     public abstract class RemoteService
     {

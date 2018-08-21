@@ -4,7 +4,7 @@
  * the GNU Lesser Public License as published by the Free Software Foundation,
  * either version 3 of the License, or (at your option) any later version.
  */
-namespace SMBLibrary.NetBios
+namespace SmbLibraryStd.NetBios
 {
     /// <summary>
     /// [RFC 1002] 4.2.1.1. HEADER

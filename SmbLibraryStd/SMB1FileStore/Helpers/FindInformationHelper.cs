@@ -6,14 +6,14 @@
  */
 using System;
 using System.Collections.Generic;
-using SMBLibrary.SMB1;
+using SmbLibraryStd.SMB1;
 using Utilities;
 
-namespace SMBLibrary.SMB1
+namespace SmbLibraryStd.SMB1
 {
     public class FindInformationHelper
     {
-        /// <exception cref="SMBLibrary.UnsupportedInformationLevelException"></exception>
+        /// <exception cref="SmbLibraryStd.UnsupportedInformationLevelException"></exception>
         public static FileInformationClass ToFileInformationClass(FindInformationLevel informationLevel)
         {
             switch (informationLevel)
@@ -35,7 +35,7 @@ namespace SMBLibrary.SMB1
             }
         }
 
-        /// <exception cref="SMBLibrary.UnsupportedInformationLevelException"></exception>
+        /// <exception cref="SmbLibraryStd.UnsupportedInformationLevelException"></exception>
         public static FindInformationList ToFindInformationList(List<QueryDirectoryFileInformation> entries, bool isUnicode, int maxLength)
         {
             FindInformationList result = new FindInformationList();
@@ -57,7 +57,7 @@ namespace SMBLibrary.SMB1
             return result;
         }
 
-        /// <exception cref="SMBLibrary.UnsupportedInformationLevelException"></exception>
+        /// <exception cref="SmbLibraryStd.UnsupportedInformationLevelException"></exception>
         public static FindInformation ToFindInformation(QueryDirectoryFileInformation fileInformation)
         {
             if (fileInformation is FileDirectoryInformation)

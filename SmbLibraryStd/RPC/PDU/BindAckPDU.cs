@@ -9,7 +9,7 @@ using System.Collections.Generic;
 using System.Text;
 using Utilities;
 
-namespace SMBLibrary.RPC
+namespace SmbLibraryStd.RPC
 {
     /// <summary>
     /// rpcconn_bind_ack_hdr_t

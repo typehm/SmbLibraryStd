@@ -55,9 +55,9 @@
     <Compile Include="UserCollection.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\SMBLibrary\SMBLibrary.csproj">
-      <Project>{8D9E8F5D-FD13-4E4C-9723-A333DA2034A7}</Project>
-      <Name>SMBLibrary</Name>
+    <ProjectReference Include="..\SmbLibraryStd\SmbLibraryStd.csproj">
+      <Project>{8d9e8f5d-fd13-4e4c-9723-a333da2034a7}</Project>
+      <Name>SmbLibraryStd</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

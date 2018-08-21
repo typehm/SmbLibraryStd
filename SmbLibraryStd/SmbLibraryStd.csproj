@@ -31,7 +31,7 @@
     <!--
       Write out an AssemblyInfo.cs containing the above version string
     -->
-    <AssemblyInfo CodeLanguage="CS" OutputFile="$(MSBuildProjectDirectory)\Properties\AssemblyInfo.cs" AssemblyTitle="SMBLibrary.Std" AssemblyDescription="Free, Open Source, User-Mode SMB 1.0/CIFS, SMB 2.0 and SMB 2.1 Server Library" AssemblyCompany="SMBLibrary.Std Authors. See https://github.com/j4m3z0r/SMBLibrary.Std/Authors.md" AssemblyProduct="SMBLibrary.Std" AssemblyCopyright="SMBLibrary.Std Authors. See https://github.com/j4m3z0r/SMBLibrary.Std/Authors.md" ComVisible="false" AssemblyVersion="$(Major).$(Minor).$(Build).$(Revision)" AssemblyFileVersion="$(Major).$(Minor).$(Build).$(Revision)" />
+    <AssemblyInfo CodeLanguage="CS" OutputFile="$(MSBuildProjectDirectory)\Properties\AssemblyInfo.cs" AssemblyTitle="SmbLibraryStd" AssemblyDescription="Free, Open Source, User-Mode SMB 1.0/CIFS, SMB 2.0 and SMB 2.1 Server Library" AssemblyCompany="SmbLibraryStd Authors. See https://github.com/j4m3z0r/SmbLibraryStd/Authors.md" AssemblyProduct="SmbLibraryStd" AssemblyCopyright="SmbLibraryStd Authors. See https://github.com/j4m3z0r/SmbLibraryStd/Authors.md" ComVisible="false" AssemblyVersion="$(Major).$(Minor).$(Build).$(Revision)" AssemblyFileVersion="$(Major).$(Minor).$(Build).$(Revision)" />
   </Target>
 
 </Project>

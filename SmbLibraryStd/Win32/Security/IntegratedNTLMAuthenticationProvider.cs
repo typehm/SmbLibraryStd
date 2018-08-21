@@ -10,11 +10,11 @@ using System.Net;
 using System.Text;
 using System.Runtime.InteropServices;
 using Utilities;
-using SMBLibrary.Authentication.GSSAPI;
-using SMBLibrary.Authentication.NTLM;
+using SmbLibraryStd.Authentication.GSSAPI;
+using SmbLibraryStd.Authentication.NTLM;
 using Microsoft.Win32;
 
-namespace SMBLibrary.Win32.Security
+namespace SmbLibraryStd.Win32.Security
 {
     public class IntegratedNTLMAuthenticationProvider : NTLMAuthenticationProviderBase
     {

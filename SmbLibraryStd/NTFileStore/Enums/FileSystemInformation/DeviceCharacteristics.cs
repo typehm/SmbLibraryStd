@@ -1,6 +1,6 @@
 using System;
 
-namespace SMBLibrary
+namespace SmbLibraryStd
 {
     [Flags]
     public enum DeviceCharacteristics : uint

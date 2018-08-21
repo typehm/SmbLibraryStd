@@ -10,7 +10,7 @@ using System.IO;
 using System.Text;
 using Utilities;
 
-namespace SMBLibrary.RPC
+namespace SmbLibraryStd.RPC
 {
     /// <summary>
     /// NDR - Native Data Representation

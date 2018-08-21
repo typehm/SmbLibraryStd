@@ -10,10 +10,10 @@ using System.Net;
 using System.Net.Sockets;
 using System.Text;
 using System.Threading;
-using SMBLibrary.NetBios;
+using SmbLibraryStd.NetBios;
 using Utilities;
 
-namespace SMBLibrary.Server
+namespace SmbLibraryStd.Server
 {
     /// <summary>
     /// NetBIOS name service server

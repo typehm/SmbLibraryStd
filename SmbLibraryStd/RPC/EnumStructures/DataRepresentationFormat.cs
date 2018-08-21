@@ -6,7 +6,7 @@
  */
 using System;
 
-namespace SMBLibrary.RPC
+namespace SmbLibraryStd.RPC
 {
     // See DCE 1.1: Remote Procedure Call, Chapter 14.1 - Data Representation Format Label
     public enum CharacterFormat : byte

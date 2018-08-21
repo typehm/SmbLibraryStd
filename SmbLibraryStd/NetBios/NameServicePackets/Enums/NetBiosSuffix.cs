@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace SMBLibrary.NetBios
+namespace SmbLibraryStd.NetBios
 {
     /// <summary>
     /// 16th character suffix for netbios name.

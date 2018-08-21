@@ -8,7 +8,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace SMBLibrary.SMB1
+namespace SmbLibraryStd.SMB1
 {
     /// <summary>
     /// SMB_COM_DELETE Response

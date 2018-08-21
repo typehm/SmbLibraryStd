@@ -6,9 +6,9 @@
  */
 using System;
 using System.Collections.Generic;
-using SMBLibrary.SMB2;
+using SmbLibraryStd.SMB2;
 
-namespace SMBLibrary.Server
+namespace SmbLibraryStd.Server
 {
     internal class SMB2AsyncContext
     {

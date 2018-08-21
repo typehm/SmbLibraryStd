@@ -8,11 +8,11 @@ using System;
 using System.Collections.Generic;
 using System.Net;
 using System.Net.Sockets;
-using SMBLibrary.Authentication.GSSAPI;
-using SMBLibrary.NetBios;
+using SmbLibraryStd.Authentication.GSSAPI;
+using SmbLibraryStd.NetBios;
 using Utilities;
 
-namespace SMBLibrary.Server
+namespace SmbLibraryStd.Server
 {
     internal delegate void LogDelegate(Severity severity, string message);
 

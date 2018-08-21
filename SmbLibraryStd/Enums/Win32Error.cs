@@ -1,5 +1,5 @@
 
-namespace SMBLibrary
+namespace SmbLibraryStd
 {
     // All Win32 error codes MUST be in the range 0x0000 to 0xFFFF
     public enum Win32Error : ushort

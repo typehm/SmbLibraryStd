@@ -8,7 +8,7 @@ using System;
 using System.Collections.Generic;
 using Utilities;
 
-namespace SMBLibrary
+namespace SmbLibraryStd
 {
     public abstract class FileInformation
     {

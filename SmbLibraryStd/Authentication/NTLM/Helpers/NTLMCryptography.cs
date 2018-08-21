@@ -12,7 +12,7 @@ using System.Security.Cryptography;
 using System.Text;
 using Utilities;
 
-namespace SMBLibrary.Authentication.NTLM
+namespace SmbLibraryStd.Authentication.NTLM
 {
     public class NTLMCryptography
     {

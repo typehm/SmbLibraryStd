@@ -8,7 +8,7 @@ using System;
 using System.Collections.Generic;
 using Utilities;
 
-namespace SMBLibrary
+namespace SmbLibraryStd
 {
     /// <summary>
     /// [MS-FSCC] 2.1.7 - FILE_NAME_INFORMATION

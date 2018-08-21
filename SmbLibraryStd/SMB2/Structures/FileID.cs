@@ -7,7 +7,7 @@
 using System;
 using Utilities;
 
-namespace SMBLibrary.SMB2
+namespace SmbLibraryStd.SMB2
 {
     /// <summary>
     /// [MS-SMB2] 2.2.14.1 - SMB2_FILEID

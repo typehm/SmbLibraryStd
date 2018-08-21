@@ -9,7 +9,7 @@ using System.Collections.Generic;
 using System.Text;
 using Utilities;
 
-namespace SMBLibrary.SMB1
+namespace SmbLibraryStd.SMB1
 {
     /// <summary>
     /// UTime - The number of seconds since Jan 1, 1970, 00:00:00

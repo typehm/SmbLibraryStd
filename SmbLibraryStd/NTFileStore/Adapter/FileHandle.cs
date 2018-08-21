@@ -9,7 +9,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Text;
 
-namespace SMBLibrary
+namespace SmbLibraryStd
 {
     public class FileHandle
     {

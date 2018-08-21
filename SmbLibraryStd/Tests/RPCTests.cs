@@ -7,10 +7,10 @@
 using System;
 using System.Collections.Generic;
 using System.Text;
-using SMBLibrary.RPC;
-using SMBLibrary.Services;
+using SmbLibraryStd.RPC;
+using SmbLibraryStd.Services;
 
-namespace SMBLibrary
+namespace SmbLibraryStd
 {
     public class RPCTests
     {

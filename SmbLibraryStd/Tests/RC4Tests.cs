@@ -9,7 +9,7 @@ using System.Collections.Generic;
 using System.Security.Cryptography;
 using Utilities;
 
-namespace SMBLibrary
+namespace SmbLibraryStd
 {
     /// <summary>
     /// https://tools.ietf.org/id/draft-kaukonen-cipher-arcfour-03.txt

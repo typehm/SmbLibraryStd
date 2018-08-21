@@ -9,7 +9,7 @@ using System.Collections.Generic;
 using System.IO;
 using Utilities;
 
-namespace SMBLibrary.SMB1
+namespace SmbLibraryStd.SMB1
 {
     /// <summary>
     /// Each message has a single header and either a single command or multiple batched (AndX) commands.

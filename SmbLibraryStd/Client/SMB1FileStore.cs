@@ -6,10 +6,10 @@
  */
 using System;
 using System.Collections.Generic;
-using SMBLibrary.SMB1;
+using SmbLibraryStd.SMB1;
 using Utilities;
 
-namespace SMBLibrary.Client
+namespace SmbLibraryStd.Client
 {
     public class SMB1FileStore : ISMBFileStore
     {

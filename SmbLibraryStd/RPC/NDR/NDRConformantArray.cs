@@ -8,7 +8,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace SMBLibrary.RPC
+namespace SmbLibraryStd.RPC
 {
     public class NDRConformantArray<T> : List<T>, INDRStructure where T : INDRStructure, new()
     {

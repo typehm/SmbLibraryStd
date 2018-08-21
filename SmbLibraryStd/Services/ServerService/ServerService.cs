@@ -9,7 +9,7 @@ using System.Collections.Generic;
 using System.Text;
 using Utilities;
 
-namespace SMBLibrary.Services
+namespace SmbLibraryStd.Services
 {
     /// <summary>
     /// [MS-SRVS]

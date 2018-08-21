@@ -9,14 +9,14 @@ using System.Collections.Generic;
 using System.Net;
 using System.Net.Sockets;
 using System.Threading;
-using SMBLibrary.Authentication.GSSAPI;
-using SMBLibrary.NetBios;
-using SMBLibrary.Services;
-using SMBLibrary.SMB1;
-using SMBLibrary.SMB2;
+using SmbLibraryStd.Authentication.GSSAPI;
+using SmbLibraryStd.NetBios;
+using SmbLibraryStd.Services;
+using SmbLibraryStd.SMB1;
+using SmbLibraryStd.SMB2;
 using Utilities;
 
-namespace SMBLibrary.Server
+namespace SmbLibraryStd.Server
 {
     public partial class SMBServer
     {

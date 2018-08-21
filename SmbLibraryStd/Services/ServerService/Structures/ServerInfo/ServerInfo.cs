@@ -6,10 +6,10 @@
  */
 using System;
 using System.Collections.Generic;
-using SMBLibrary.RPC;
+using SmbLibraryStd.RPC;
 using Utilities;
 
-namespace SMBLibrary.Services
+namespace SmbLibraryStd.Services
 {
     /// <summary>
     /// [MS-SRVS] SERVER_INFO Union

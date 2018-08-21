@@ -7,7 +7,7 @@
 using System;
 using System.IO;
 
-namespace SMBLibrary.Server
+namespace SmbLibraryStd.Server
 {
     public class OpenFileInformation
     {

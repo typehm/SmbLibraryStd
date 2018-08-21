@@ -8,7 +8,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace SMBLibrary.Services
+namespace SmbLibraryStd.Services
 {
     /// <summary>
     /// [MS-WKST]

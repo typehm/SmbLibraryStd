@@ -6,11 +6,11 @@
  */
 using System;
 using System.Collections.Generic;
-using SMBLibrary.RPC;
-using SMBLibrary.Services;
+using SmbLibraryStd.RPC;
+using SmbLibraryStd.Services;
 using Utilities;
 
-namespace SMBLibrary.Client
+namespace SmbLibraryStd.Client
 {
     public class ServerServiceHelper
     {

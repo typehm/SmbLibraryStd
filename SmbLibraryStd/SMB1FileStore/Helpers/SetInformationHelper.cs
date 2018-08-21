@@ -6,10 +6,10 @@
  */
 using System;
 using System.Collections.Generic;
-using SMBLibrary.SMB1;
+using SmbLibraryStd.SMB1;
 using Utilities;
 
-namespace SMBLibrary.SMB1
+namespace SmbLibraryStd.SMB1
 {
     public class SetInformationHelper
     {

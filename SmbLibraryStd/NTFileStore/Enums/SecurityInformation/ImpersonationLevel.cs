@@ -1,5 +1,5 @@
 
-namespace SMBLibrary
+namespace SmbLibraryStd
 {
     /// <summary>
     /// https://msdn.microsoft.com/en-us/library/windows/desktop/aa379572(v=vs.85).aspx

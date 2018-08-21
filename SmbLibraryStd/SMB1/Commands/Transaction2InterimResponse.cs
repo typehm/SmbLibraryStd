@@ -8,7 +8,7 @@ using System;
 using System.Collections.Generic;
 using Utilities;
 
-namespace SMBLibrary.SMB1
+namespace SmbLibraryStd.SMB1
 {
     public class Transaction2InterimResponse : TransactionInterimResponse
     {

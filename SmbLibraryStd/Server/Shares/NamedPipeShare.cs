@@ -7,10 +7,10 @@
 using System;
 using System.Collections.Generic;
 using System.IO;
-using SMBLibrary.RPC;
-using SMBLibrary.Services;
+using SmbLibraryStd.RPC;
+using SmbLibraryStd.Services;
 
-namespace SMBLibrary.Server
+namespace SmbLibraryStd.Server
 {
     public class NamedPipeShare : ISMBShare
     {

@@ -9,7 +9,7 @@ using System.Collections.Generic;
 using System.Text;
 using Utilities;
 
-namespace SMBLibrary
+namespace SmbLibraryStd
 {
     /// <summary>
     /// [MS-DFSC] REQ_GET_DFS_REFERRAL

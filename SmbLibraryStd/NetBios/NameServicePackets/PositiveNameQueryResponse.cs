@@ -10,7 +10,7 @@ using System.IO;
 using System.Text;
 using Utilities;
 
-namespace SMBLibrary.NetBios
+namespace SmbLibraryStd.NetBios
 {
     /// <summary>
     /// [RFC 1002] 4.2.13. POSITIVE NAME QUERY RESPONSE

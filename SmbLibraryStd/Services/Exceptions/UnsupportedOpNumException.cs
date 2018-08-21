@@ -7,7 +7,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace SMBLibrary
+namespace SmbLibraryStd
 {
     public class UnsupportedOpNumException : Exception
     {

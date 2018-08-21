@@ -9,7 +9,7 @@ using System.Collections.Generic;
 using System.Text;
 using Utilities;
 
-namespace SMBLibrary.RPC
+namespace SmbLibraryStd.RPC
 {
     /// <summary>
     /// p_rt_versions_supported_t

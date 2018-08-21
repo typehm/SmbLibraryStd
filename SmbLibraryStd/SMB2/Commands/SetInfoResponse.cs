@@ -8,7 +8,7 @@ using System;
 using System.Collections.Generic;
 using Utilities;
 
-namespace SMBLibrary.SMB2
+namespace SmbLibraryStd.SMB2
 {
     /// <summary>
     /// SMB2 SET_INFO Response

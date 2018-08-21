@@ -1,6 +1,6 @@
 using System;
 
-namespace SMBLibrary
+namespace SmbLibraryStd
 {
     /// <summary>
     /// [MS-DTYP] 2.4.7 - SECURITY_INFORMATION

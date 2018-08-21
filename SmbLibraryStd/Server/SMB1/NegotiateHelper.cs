@@ -7,12 +7,12 @@
 using System;
 using System.Collections.Generic;
 using System.Text;
-using SMBLibrary.Authentication.GSSAPI;
-using SMBLibrary.Authentication.NTLM;
-using SMBLibrary.SMB1;
+using SmbLibraryStd.Authentication.GSSAPI;
+using SmbLibraryStd.Authentication.NTLM;
+using SmbLibraryStd.SMB1;
 using Utilities;
 
-namespace SMBLibrary.Server.SMB1
+namespace SmbLibraryStd.Server.SMB1
 {
     /// <summary>
     /// Negotiate helper

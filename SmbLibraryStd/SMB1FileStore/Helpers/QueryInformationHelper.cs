@@ -6,14 +6,14 @@
  */
 using System;
 using System.Collections.Generic;
-using SMBLibrary.SMB1;
+using SmbLibraryStd.SMB1;
 using Utilities;
 
-namespace SMBLibrary.SMB1
+namespace SmbLibraryStd.SMB1
 {
     public class QueryInformationHelper
     {
-        /// <exception cref="SMBLibrary.UnsupportedInformationLevelException"></exception>
+        /// <exception cref="SmbLibraryStd.UnsupportedInformationLevelException"></exception>
         public static FileInformationClass ToFileInformationClass(QueryInformationLevel informationLevel)
         {
             switch (informationLevel)
@@ -125,7 +125,7 @@ namespace SMBLibrary.SMB1
             }
         }
 
-        /// <exception cref="SMBLibrary.UnsupportedInformationLevelException"></exception>
+        /// <exception cref="SmbLibraryStd.UnsupportedInformationLevelException"></exception>
         public static QueryInformationLevel ToFileInformationLevel(FileInformationClass informationClass)
         {
             switch (informationClass)

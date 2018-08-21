@@ -1,5 +1,5 @@
 
-namespace SMBLibrary.RPC
+namespace SmbLibraryStd.RPC
 {
     // Commented out packet types are connectionless-only
     public enum PacketTypeName : byte

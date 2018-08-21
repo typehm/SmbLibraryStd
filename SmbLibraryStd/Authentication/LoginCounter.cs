@@ -8,7 +8,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace SMBLibrary.Authentication
+namespace SmbLibraryStd.Authentication
 {
     public class LoginCounter
     {

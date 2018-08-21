@@ -10,7 +10,7 @@ using System.IO;
 using System.Text;
 using Utilities;
 
-namespace SMBLibrary.NetBios
+namespace SmbLibraryStd.NetBios
 {
     public class NetBiosUtils
     {

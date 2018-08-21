@@ -9,7 +9,7 @@ using System.Collections.Generic;
 using System.Text;
 using Utilities;
 
-namespace SMBLibrary
+namespace SmbLibraryStd
 {
     /// <summary>
     /// [MS-FSCC] 2.1.3.1 - FILE_OBJECTID_BUFFER Type 1

@@ -9,7 +9,7 @@ using System.Collections.Generic;
 using System.Text;
 using Utilities;
 
-namespace SMBLibrary.RPC
+namespace SmbLibraryStd.RPC
 {
     public class NDRUnicodeString : INDRStructure
     {

@@ -7,11 +7,11 @@
 using System;
 using System.Collections.Generic;
 using System.IO;
-using SMBLibrary.RPC;
-using SMBLibrary.Services;
+using SmbLibraryStd.RPC;
+using SmbLibraryStd.Services;
 using Utilities;
 
-namespace SMBLibrary
+namespace SmbLibraryStd
 {
     public class NamedPipeStore : INTFileStore
     {

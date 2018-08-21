@@ -12,7 +12,7 @@ using System.Threading;
 using Microsoft.Win32.SafeHandles;
 using Utilities;
 
-namespace SMBLibrary.Win32
+namespace SmbLibraryStd.Win32
 {
     [StructLayout(LayoutKind.Sequential)]
     public struct UNICODE_STRING : IDisposable

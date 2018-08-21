@@ -6,12 +6,12 @@
  */
 using System;
 using System.Collections.Generic;
-using SMBLibrary.NetBios;
-using SMBLibrary.Server.SMB1;
-using SMBLibrary.SMB1;
+using SmbLibraryStd.NetBios;
+using SmbLibraryStd.Server.SMB1;
+using SmbLibraryStd.SMB1;
 using Utilities;
 
-namespace SMBLibrary.Server
+namespace SmbLibraryStd.Server
 {
     public partial class SMBServer
     {

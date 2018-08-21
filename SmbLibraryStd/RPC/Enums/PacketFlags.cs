@@ -1,6 +1,6 @@
 using System;
 
-namespace SMBLibrary.RPC
+namespace SmbLibraryStd.RPC
 {
     [Flags]
     public enum PacketFlags : byte

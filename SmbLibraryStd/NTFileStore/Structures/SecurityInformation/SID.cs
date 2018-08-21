@@ -8,7 +8,7 @@ using System;
 using System.Collections.Generic;
 using Utilities;
 
-namespace SMBLibrary
+namespace SmbLibraryStd
 {
     /// <summary>
     /// [MS-DTYP] 2.4.2.2 - SID (Packet Representation)

@@ -6,11 +6,11 @@
  */
 using System;
 using System.Collections.Generic;
-using SMBLibrary.Authentication;
-using SMBLibrary.SMB2;
+using SmbLibraryStd.Authentication;
+using SmbLibraryStd.SMB2;
 using Utilities;
 
-namespace SMBLibrary.Server.SMB2
+namespace SmbLibraryStd.Server.SMB2
 {
     internal class SetInfoHelper
     {

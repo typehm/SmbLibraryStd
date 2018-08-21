@@ -7,10 +7,10 @@
 using System;
 using System.Collections.Generic;
 using System.IO;
-using SMBLibrary.SMB1;
+using SmbLibraryStd.SMB1;
 using Utilities;
 
-namespace SMBLibrary.Server.SMB1
+namespace SmbLibraryStd.Server.SMB1
 {
     internal class NTTransactHelper
     {

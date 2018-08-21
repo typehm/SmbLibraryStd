@@ -1,6 +1,6 @@
 using System;
 
-namespace SMBLibrary.Authentication.GSSAPI
+namespace SmbLibraryStd.Authentication.GSSAPI
 {
     public enum GSSAttributeName
     {

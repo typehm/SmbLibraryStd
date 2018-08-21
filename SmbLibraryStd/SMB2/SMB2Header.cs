@@ -7,7 +7,7 @@
 using System;
 using Utilities;
 
-namespace SMBLibrary.SMB2
+namespace SmbLibraryStd.SMB2
 {
     public class SMB2Header
     {

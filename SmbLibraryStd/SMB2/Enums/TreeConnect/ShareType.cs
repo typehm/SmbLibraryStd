@@ -1,5 +1,5 @@
 
-namespace SMBLibrary.SMB2
+namespace SmbLibraryStd.SMB2
 {
     public enum ShareType : byte
     {

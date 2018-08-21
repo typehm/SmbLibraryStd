@@ -8,7 +8,7 @@ using System;
 using System.Collections.Generic;
 using System.Runtime.InteropServices;
 
-namespace SMBLibrary.Win32.Security
+namespace SmbLibraryStd.Win32.Security
 {
     public enum SecBufferType : uint
     {

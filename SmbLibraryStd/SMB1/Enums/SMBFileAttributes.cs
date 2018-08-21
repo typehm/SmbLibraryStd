@@ -1,6 +1,6 @@
 using System;
 
-namespace SMBLibrary.SMB1
+namespace SmbLibraryStd.SMB1
 {
     /// <summary>
     /// SMB_FILE_ATTRIBUTES

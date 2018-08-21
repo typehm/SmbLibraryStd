@@ -8,9 +8,9 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 using Utilities;
-using SMBLibrary.Authentication.NTLM;
+using SmbLibraryStd.Authentication.NTLM;
 
-namespace SMBLibrary
+namespace SmbLibraryStd
 {
     /// <summary>
     /// [MS-NLMP] Tests

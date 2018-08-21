@@ -6,7 +6,7 @@
  */
 using System;
 
-namespace SMBLibrary.SMB1
+namespace SmbLibraryStd.SMB1
 {
     public enum LockStatus : byte
     {

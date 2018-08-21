@@ -9,7 +9,7 @@ using System.Collections.Generic;
 using System.Net;
 using Utilities;
 
-namespace SMBLibrary.Server
+namespace SmbLibraryStd.Server
 {
     internal class ConnectionManager
     {
@@ -70,12 +70,12 @@ namespace SMBLibrary.Server
                     {
                         // [MS-CIFS] Clients SHOULD, at minimum, send an SMB_COM_ECHO to the server every few minutes.
                         // This means that an unsolicited SMB_COM_ECHO reply is not likely to be sent on a connection that is alive.
-                        SMBLibrary.SMB1.SMB1Message echoReply = SMB1.EchoHelper.GetUnsolicitedEchoReply();
+                        SmbLibraryStd.SMB1.SMB1Message echoReply = SMB1.EchoHelper.GetUnsolicitedEchoReply();
                         SMBServer.EnqueueMessage(connection, echoReply);
                     }
                     else if (connection is SMB2ConnectionState)
                     {
-                        SMBLibrary.SMB2.EchoResponse echoResponse = SMB2.EchoHelper.GetUnsolicitedEchoResponse();
+                        SmbLibraryStd.SMB2.EchoResponse echoResponse = SMB2.EchoHelper.GetUnsolicitedEchoResponse();
                         SMBServer.EnqueueResponse(connection, echoResponse);
                     }
                 }

@@ -1,5 +1,5 @@
 
-namespace SMBLibrary
+namespace SmbLibraryStd
 {
     public enum NTStatus : uint
     {

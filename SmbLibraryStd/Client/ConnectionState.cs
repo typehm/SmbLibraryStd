@@ -8,11 +8,11 @@ using System;
 using System.Collections.Generic;
 using System.Net;
 using System.Net.Sockets;
-using SMBLibrary.NetBios;
-using SMBLibrary.SMB1;
+using SmbLibraryStd.NetBios;
+using SmbLibraryStd.SMB1;
 using Utilities;
 
-namespace SMBLibrary.Client
+namespace SmbLibraryStd.Client
 {
     public class ConnectionState
     {

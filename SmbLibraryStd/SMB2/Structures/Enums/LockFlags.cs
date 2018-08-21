@@ -1,6 +1,6 @@
 using System;
 
-namespace SMBLibrary.SMB2
+namespace SmbLibraryStd.SMB2
 {
     [Flags]
     public enum LockFlags : uint

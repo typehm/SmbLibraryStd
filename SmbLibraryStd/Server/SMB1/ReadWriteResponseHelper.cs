@@ -8,12 +8,12 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Text;
-using SMBLibrary.RPC;
-using SMBLibrary.SMB1;
-using SMBLibrary.Services;
+using SmbLibraryStd.RPC;
+using SmbLibraryStd.SMB1;
+using SmbLibraryStd.Services;
 using Utilities;
 
-namespace SMBLibrary.Server.SMB1
+namespace SmbLibraryStd.Server.SMB1
 {
     internal class ReadWriteResponseHelper
     {

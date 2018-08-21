@@ -8,7 +8,7 @@ using System;
 using System.Collections.Generic;
 using System.Net;
 
-namespace SMBLibrary.Server
+namespace SmbLibraryStd.Server
 {
     public class SessionInformation
     {

@@ -6,9 +6,9 @@
  */
 using System;
 using System.Collections.Generic;
-using SMBLibrary.RPC;
+using SmbLibraryStd.RPC;
 
-namespace SMBLibrary.Services
+namespace SmbLibraryStd.Services
 {
     /// <summary>
     /// [MS-WKST] WKSTA_INFO Union

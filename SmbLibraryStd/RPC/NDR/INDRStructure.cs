@@ -8,7 +8,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace SMBLibrary.RPC
+namespace SmbLibraryStd.RPC
 {
     /// <summary>
     /// Serializable Structure / Union / Array

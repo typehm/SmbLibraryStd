@@ -9,9 +9,9 @@ using System.Collections.Generic;
 using System.IO;
 using System.Text;
 using Utilities;
-using SMBLibrary.RPC;
+using SmbLibraryStd.RPC;
 
-namespace SMBLibrary.Services
+namespace SmbLibraryStd.Services
 {
     /// <summary>
     /// NetrWkstaGetInfo Request (opnum 0)

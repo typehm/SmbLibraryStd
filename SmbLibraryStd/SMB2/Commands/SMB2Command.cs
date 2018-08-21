@@ -10,7 +10,7 @@ using System.IO;
 using System.Security.Cryptography;
 using Utilities;
 
-namespace SMBLibrary.SMB2
+namespace SmbLibraryStd.SMB2
 {
     public abstract class SMB2Command
     {

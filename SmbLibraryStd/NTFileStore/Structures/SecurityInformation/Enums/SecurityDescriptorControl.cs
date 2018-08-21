@@ -1,6 +1,6 @@
 using System;
 
-namespace SMBLibrary
+namespace SmbLibraryStd
 {
     /// <summary>
     /// SECURITY_DESCRIPTOR_CONTROL

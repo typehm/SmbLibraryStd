@@ -9,7 +9,7 @@ using System.Collections.Generic;
 using System.IO;
 using Utilities;
 
-namespace SMBLibrary
+namespace SmbLibraryStd
 {
     public partial class NTFileSystemAdapter
     {

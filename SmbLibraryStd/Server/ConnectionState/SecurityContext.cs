@@ -7,9 +7,9 @@
 using System;
 using System.Collections.Generic;
 using System.Net;
-using SMBLibrary.Authentication.GSSAPI;
+using SmbLibraryStd.Authentication.GSSAPI;
 
-namespace SMBLibrary
+namespace SmbLibraryStd
 {
     public class SecurityContext
     {

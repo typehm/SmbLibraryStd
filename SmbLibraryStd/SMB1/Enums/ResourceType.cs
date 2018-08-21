@@ -1,5 +1,5 @@
 
-namespace SMBLibrary.SMB1
+namespace SmbLibraryStd.SMB1
 {
     public enum ResourceType : ushort
     {

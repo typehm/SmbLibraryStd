@@ -8,7 +8,7 @@ using System;
 using System.Collections.Generic;
 using Utilities;
 
-namespace SMBLibrary.SMB2
+namespace SmbLibraryStd.SMB2
 {
     /// <summary>
     /// [MS-SMB2] 2.2.3.1 - NEGOTIATE_CONTEXT

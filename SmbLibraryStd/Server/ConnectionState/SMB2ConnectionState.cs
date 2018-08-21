@@ -7,10 +7,10 @@
 using System;
 using System.Collections.Generic;
 using System.IO;
-using SMBLibrary.SMB2;
+using SmbLibraryStd.SMB2;
 using Utilities;
 
-namespace SMBLibrary.Server
+namespace SmbLibraryStd.Server
 {
     internal class SMB2ConnectionState : ConnectionState
     {

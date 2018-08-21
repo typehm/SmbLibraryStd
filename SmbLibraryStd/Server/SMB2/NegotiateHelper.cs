@@ -6,11 +6,11 @@
  */
 using System;
 using System.Collections.Generic;
-using SMBLibrary.Authentication.GSSAPI;
-using SMBLibrary.SMB2;
+using SmbLibraryStd.Authentication.GSSAPI;
+using SmbLibraryStd.SMB2;
 using Utilities;
 
-namespace SMBLibrary.Server.SMB2
+namespace SmbLibraryStd.Server.SMB2
 {
     /// <summary>
     /// Negotiate helper
@@ -82,17 +82,17 @@ namespace SMBLibrary.Server.SMB2
             return response;
         }
 
-        internal static List<string> FindSMB2Dialects(SMBLibrary.SMB1.SMB1Message message)
+        internal static List<string> FindSMB2Dialects(SmbLibraryStd.SMB1.SMB1Message message)
         {
-            if (message.Commands.Count > 0 && message.Commands[0] is SMBLibrary.SMB1.NegotiateRequest)
+            if (message.Commands.Count > 0 && message.Commands[0] is SmbLibraryStd.SMB1.NegotiateRequest)
             {
-                SMBLibrary.SMB1.NegotiateRequest request = (SMBLibrary.SMB1.NegotiateRequest)message.Commands[0];
+                SmbLibraryStd.SMB1.NegotiateRequest request = (SmbLibraryStd.SMB1.NegotiateRequest)message.Commands[0];
                 return FindSMB2Dialects(request);
             }
             return new List<string>();
         }
 
-        internal static List<string> FindSMB2Dialects(SMBLibrary.SMB1.NegotiateRequest request)
+        internal static List<string> FindSMB2Dialects(SmbLibraryStd.SMB1.NegotiateRequest request)
         {
             List<string> result = new List<string>();
             if (request.Dialects.Contains(SMB2002Dialect))

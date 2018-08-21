@@ -6,9 +6,9 @@
  */
 using System;
 using System.Collections.Generic;
-using SMBLibrary.Authentication.GSSAPI;
+using SmbLibraryStd.Authentication.GSSAPI;
 
-namespace SMBLibrary.Authentication.NTLM
+namespace SmbLibraryStd.Authentication.NTLM
 {
     public abstract class NTLMAuthenticationProviderBase : IGSSMechanism
     {

@@ -7,9 +7,9 @@
 using System;
 using System.Collections.Generic;
 using System.Text;
-using SMBLibrary.RPC;
+using SmbLibraryStd.RPC;
 
-namespace SMBLibrary.Services
+namespace SmbLibraryStd.Services
 {
     /// <summary>
     /// [MS-WKST] WKSTA_INFO_101

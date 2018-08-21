@@ -7,11 +7,11 @@
 using System;
 using System.Collections.Generic;
 using System.Security.Cryptography;
-using SMBLibrary.Authentication.GSSAPI;
-using SMBLibrary.Authentication.NTLM;
+using SmbLibraryStd.Authentication.GSSAPI;
+using SmbLibraryStd.Authentication.NTLM;
 using Utilities;
 
-namespace SMBLibrary.Client
+namespace SmbLibraryStd.Client
 {
     public class NTLMAuthenticationHelper
     {

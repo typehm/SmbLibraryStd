@@ -1,6 +1,6 @@
 using System;
 
-namespace SMBLibrary.Services
+namespace SmbLibraryStd.Services
 {
     /// <summary>
     /// [MS-SRVS] 2.2.2.7 Software Type Flags

@@ -5,9 +5,9 @@
  * either version 3 of the License, or (at your option) any later version.
  */
 using System;
-using SMBLibrary.RPC;
+using SmbLibraryStd.RPC;
 
-namespace SMBLibrary.Services
+namespace SmbLibraryStd.Services
 {
     /// <summary>
     /// [MS-SRVS] 2.2.2.4 Share Types

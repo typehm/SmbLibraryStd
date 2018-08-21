@@ -7,10 +7,10 @@
 using System;
 using System.Collections.Generic;
 using System.Security.Cryptography;
-using SMBLibrary.Authentication.NTLM;
+using SmbLibraryStd.Authentication.NTLM;
 using Utilities;
 
-namespace SMBLibrary
+namespace SmbLibraryStd
 {
     public class NTLMSigningTests
     {

@@ -7,10 +7,10 @@
 using System;
 using System.Collections.Generic;
 using System.Text;
-using SMBLibrary.RPC;
+using SmbLibraryStd.RPC;
 using Utilities;
 
-namespace SMBLibrary.Services
+namespace SmbLibraryStd.Services
 {
     public abstract class WorkstationInfoLevel : INDRStructure
     {

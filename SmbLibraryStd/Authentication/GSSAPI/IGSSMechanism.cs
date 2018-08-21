@@ -7,7 +7,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace SMBLibrary.Authentication.GSSAPI
+namespace SmbLibraryStd.Authentication.GSSAPI
 {
     public interface IGSSMechanism
     {

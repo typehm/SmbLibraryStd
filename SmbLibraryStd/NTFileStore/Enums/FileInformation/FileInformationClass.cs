@@ -1,5 +1,5 @@
 
-namespace SMBLibrary
+namespace SmbLibraryStd
 {
     /// <summary>
     /// [MS-FSCC] 2.4 - File Information Classes

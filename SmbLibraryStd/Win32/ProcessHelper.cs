@@ -9,7 +9,7 @@ using System.Runtime.InteropServices;
 using System.Collections.Generic;
 using System.Diagnostics;
 
-namespace SMBLibrary.Win32
+namespace SmbLibraryStd.Win32
 {
     public class ProcessHelper
     {

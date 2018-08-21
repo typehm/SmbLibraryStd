@@ -6,10 +6,10 @@
  */
 using System;
 using System.Collections.Generic;
-using SMBLibrary.Authentication.NTLM;
+using SmbLibraryStd.Authentication.NTLM;
 using Utilities;
 
-namespace SMBLibrary.Authentication.GSSAPI
+namespace SmbLibraryStd.Authentication.GSSAPI
 {
     public class GSSContext
     {

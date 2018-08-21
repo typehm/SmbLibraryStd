@@ -7,10 +7,10 @@
 using System;
 using System.Collections.Generic;
 using System.Security.Cryptography;
-using SMBLibrary.Authentication.GSSAPI;
+using SmbLibraryStd.Authentication.GSSAPI;
 using Utilities;
 
-namespace SMBLibrary.Authentication.NTLM
+namespace SmbLibraryStd.Authentication.NTLM
 {
     /// <returns>null if the account does not exist</returns>
     public delegate string GetUserPassword(string userName);

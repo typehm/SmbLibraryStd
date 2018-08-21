@@ -10,13 +10,13 @@ using System.Diagnostics;
 using System.Net;
 using System.Net.Sockets;
 using System.Threading;
-using SMBLibrary.Authentication.NTLM;
-using SMBLibrary.NetBios;
-using SMBLibrary.Services;
-using SMBLibrary.SMB1;
+using SmbLibraryStd.Authentication.NTLM;
+using SmbLibraryStd.NetBios;
+using SmbLibraryStd.Services;
+using SmbLibraryStd.SMB1;
 using Utilities;
 
-namespace SMBLibrary.Client
+namespace SmbLibraryStd.Client
 {
     public class SMB1Client : ISMBClient
     {

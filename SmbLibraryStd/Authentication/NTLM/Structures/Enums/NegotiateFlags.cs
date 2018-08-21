@@ -1,6 +1,6 @@
 using System;
 
-namespace SMBLibrary.Authentication.NTLM
+namespace SmbLibraryStd.Authentication.NTLM
 {
     [Flags]
     public enum NegotiateFlags : uint

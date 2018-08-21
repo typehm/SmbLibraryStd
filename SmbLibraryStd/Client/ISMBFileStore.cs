@@ -6,7 +6,7 @@
  */
 using System;
 
-namespace SMBLibrary.Client
+namespace SmbLibraryStd.Client
 {
     public interface ISMBFileStore : INTFileStore
     {

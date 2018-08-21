@@ -9,7 +9,7 @@ using System.Collections.Generic;
 using System.IO;
 using Utilities;
 
-namespace SMBLibrary.NetBios
+namespace SmbLibraryStd.NetBios
 {
     public class NBTConnectionReceiveBuffer
     {

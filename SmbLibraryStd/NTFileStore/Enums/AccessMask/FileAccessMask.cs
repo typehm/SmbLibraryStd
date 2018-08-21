@@ -1,6 +1,6 @@
 using System;
 
-namespace SMBLibrary
+namespace SmbLibraryStd
 {
     /// <summary>
     /// [MS-SMB] 2.2.1.4.1 - File_Pipe_Printer_Access_Mask

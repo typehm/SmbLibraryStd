@@ -16,12 +16,12 @@ using System.Net.Sockets;
 using System.Text;
 using System.Windows.Forms;
 using System.Xml;
-using SMBLibrary;
-using SMBLibrary.Authentication.GSSAPI;
-using SMBLibrary.Authentication.NTLM;
-using SMBLibrary.Server;
-using SMBLibrary.Win32;
-using SMBLibrary.Win32.Security;
+using SmbLibraryStd;
+using SmbLibraryStd.Authentication.GSSAPI;
+using SmbLibraryStd.Authentication.NTLM;
+using SmbLibraryStd.Server;
+using SmbLibraryStd.Win32;
+using SmbLibraryStd.Win32.Security;
 using Utilities;
 
 namespace SMBServer
@@ -29,8 +29,8 @@ namespace SMBServer
     public partial class ServerUI : Form
     {
         public const string SettingsFileName = "Settings.xml";
-        private SMBLibrary.Server.SMBServer m_server;
-        private SMBLibrary.Server.NameServer m_nameServer;
+        private SmbLibraryStd.Server.SMBServer m_server;
+        private SmbLibraryStd.Server.NameServer m_nameServer;
         private LogWriter m_logWriter;
 
         public ServerUI()
@@ -98,7 +98,7 @@ namespace SMBServer
             }
 
             GSSProvider securityProvider = new GSSProvider(authenticationMechanism);
-            m_server = new SMBLibrary.Server.SMBServer(shares, securityProvider);
+            m_server = new SmbLibraryStd.Server.SMBServer(shares, securityProvider);
             m_logWriter = new LogWriter();
             // The provided logging mechanism will synchronously write to the disk during server activity.
             // To maximize server performance, you can disable logging by commenting out the following line.

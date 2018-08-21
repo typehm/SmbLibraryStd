@@ -8,7 +8,7 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 
-namespace SMBLibrary.Server
+namespace SmbLibraryStd.Server
 {
     internal class OpenFileObject
     {

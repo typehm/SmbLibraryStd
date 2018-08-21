@@ -9,7 +9,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Net;
 
-namespace SMBLibrary.Server
+namespace SmbLibraryStd.Server
 {
     public class AccessRequestArgs : EventArgs
     {

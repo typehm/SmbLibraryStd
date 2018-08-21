@@ -7,12 +7,12 @@
 using System;
 using System.Collections.Generic;
 using System.IO;
-using SMBLibrary.SMB1;
-using SMBLibrary.RPC;
-using SMBLibrary.Services;
+using SmbLibraryStd.SMB1;
+using SmbLibraryStd.RPC;
+using SmbLibraryStd.Services;
 using Utilities;
 
-namespace SMBLibrary.Server.SMB1
+namespace SmbLibraryStd.Server.SMB1
 {
     internal class TransactionHelper
     {

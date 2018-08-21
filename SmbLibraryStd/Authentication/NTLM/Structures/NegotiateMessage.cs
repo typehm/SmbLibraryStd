@@ -9,7 +9,7 @@ using System.Collections.Generic;
 using System.Text;
 using Utilities;
 
-namespace SMBLibrary.Authentication.NTLM
+namespace SmbLibraryStd.Authentication.NTLM
 {
     /// <summary>
     /// [MS-NLMP] NEGOTIATE_MESSAGE (Type 1 Message)

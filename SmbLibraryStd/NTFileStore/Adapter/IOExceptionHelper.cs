@@ -11,7 +11,7 @@ using System.Reflection;
 using System.Text;
 using Utilities;
 
-namespace SMBLibrary
+namespace SmbLibraryStd
 {
     public class IOExceptionHelper
     {

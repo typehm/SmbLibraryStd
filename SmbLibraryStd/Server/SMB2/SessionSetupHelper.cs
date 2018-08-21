@@ -6,12 +6,12 @@
  */
 using System;
 using System.Collections.Generic;
-using SMBLibrary.Authentication.GSSAPI;
-using SMBLibrary.Authentication.NTLM;
-using SMBLibrary.SMB2;
+using SmbLibraryStd.Authentication.GSSAPI;
+using SmbLibraryStd.Authentication.NTLM;
+using SmbLibraryStd.SMB2;
 using Utilities;
 
-namespace SMBLibrary.Server.SMB2
+namespace SmbLibraryStd.Server.SMB2
 {
     /// <summary>
     /// Session Setup helper

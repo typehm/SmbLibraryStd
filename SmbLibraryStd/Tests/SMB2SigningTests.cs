@@ -9,7 +9,7 @@ using System.Collections.Generic;
 using System.Security.Cryptography;
 using Utilities;
 
-namespace SMBLibrary
+namespace SmbLibraryStd
 {
     public class SMB2SigningTests
     {

@@ -1,6 +1,6 @@
 using System;
 
-namespace SMBLibrary.Services
+namespace SmbLibraryStd.Services
 {
     [Flags]
     public enum Permissions : uint

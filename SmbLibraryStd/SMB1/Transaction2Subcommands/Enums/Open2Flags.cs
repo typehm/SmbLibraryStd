@@ -1,6 +1,6 @@
 using System;
 
-namespace SMBLibrary.SMB1
+namespace SmbLibraryStd.SMB1
 {
     [Flags]
     public enum Open2Flags : ushort

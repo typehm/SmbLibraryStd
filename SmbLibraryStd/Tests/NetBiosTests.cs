@@ -1,10 +1,10 @@
 using System;
 using System.Collections.Generic;
 using System.Text;
-using SMBLibrary.NetBios;
+using SmbLibraryStd.NetBios;
 using Utilities;
 
-namespace SMBLibrary
+namespace SmbLibraryStd
 {
     public class NetBiosTests
     {

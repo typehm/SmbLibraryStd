@@ -11,7 +11,7 @@ using System.Net;
 using System.Text;
 using Utilities;
 
-namespace SMBLibrary.NetBios
+namespace SmbLibraryStd.NetBios
 {
     /// <summary>
     /// [RFC 1002] 4.2.2. NAME REGISTRATION REQUEST

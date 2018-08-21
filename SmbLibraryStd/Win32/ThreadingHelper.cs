@@ -8,7 +8,7 @@ using System;
 using System.Runtime.InteropServices;
 using System.Threading;
 
-namespace SMBLibrary.Win32
+namespace SmbLibraryStd.Win32
 {
     public class ThreadingHelper
     {

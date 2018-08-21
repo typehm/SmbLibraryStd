@@ -8,7 +8,7 @@ using System;
 using System.Collections.Generic;
 using Utilities;
 
-namespace SMBLibrary.RPC
+namespace SmbLibraryStd.RPC
 {
     /// <summary>
     /// See DCE 1.1: Remote Procedure Call, Chapter 12.6 - Connection-oriented RPC PDUs

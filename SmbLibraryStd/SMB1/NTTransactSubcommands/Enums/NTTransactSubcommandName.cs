@@ -1,5 +1,5 @@
 
-namespace SMBLibrary.SMB1
+namespace SmbLibraryStd.SMB1
 {
     /// <summary>
     /// This is the Function field in SMB_COM_NT_TRANSACT request

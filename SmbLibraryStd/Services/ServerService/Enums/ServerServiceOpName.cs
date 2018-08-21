@@ -1,5 +1,5 @@
 
-namespace SMBLibrary.Services
+namespace SmbLibraryStd.Services
 {
     public enum ServerServiceOpName : ushort
     {

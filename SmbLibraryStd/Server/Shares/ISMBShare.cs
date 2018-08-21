@@ -6,7 +6,7 @@
  */
 using System;
 
-namespace SMBLibrary.Server
+namespace SmbLibraryStd.Server
 {
     public interface ISMBShare
     {

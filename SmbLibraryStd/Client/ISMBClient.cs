@@ -8,7 +8,7 @@ using System;
 using System.Collections.Generic;
 using System.Net;
 
-namespace SMBLibrary.Client
+namespace SmbLibraryStd.Client
 {
     public interface ISMBClient
     {

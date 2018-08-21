@@ -1,5 +1,5 @@
 
-namespace SMBLibrary.Server
+namespace SmbLibraryStd.Server
 {
     public enum SMBDialect
     {

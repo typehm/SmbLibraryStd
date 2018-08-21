@@ -6,10 +6,10 @@
  */
 using System;
 using System.Collections.Generic;
-using SMBLibrary.SMB2;
+using SmbLibraryStd.SMB2;
 using Utilities;
 
-namespace SMBLibrary.Server.SMB2
+namespace SmbLibraryStd.Server.SMB2
 {
     internal class ChangeNotifyHelper
     {

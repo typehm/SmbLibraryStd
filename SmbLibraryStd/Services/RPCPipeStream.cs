@@ -7,9 +7,9 @@
 using System;
 using System.Collections.Generic;
 using System.IO;
-using SMBLibrary.RPC;
+using SmbLibraryStd.RPC;
 
-namespace SMBLibrary.Services
+namespace SmbLibraryStd.Services
 {
     public class RPCPipeStream : Stream
     {

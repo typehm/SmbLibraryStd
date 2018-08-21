@@ -8,7 +8,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace SMBLibrary.Win32
+namespace SmbLibraryStd.Win32
 {
     internal class PendingRequestCollection
     {

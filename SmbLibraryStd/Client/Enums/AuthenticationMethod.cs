@@ -1,5 +1,5 @@
 
-namespace SMBLibrary.Client
+namespace SmbLibraryStd.Client
 {
     public enum AuthenticationMethod
     {

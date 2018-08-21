@@ -1,5 +1,5 @@
 
-namespace SMBLibrary.RPC
+namespace SmbLibraryStd.RPC
 {
     public enum NegotiationResult : ushort
     {

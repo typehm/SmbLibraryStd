@@ -8,7 +8,7 @@ using System;
 using System.Collections.Generic;
 using Utilities;
 
-namespace SMBLibrary.NetBios
+namespace SmbLibraryStd.NetBios
 {
     /// <summary>
     /// [RFC 1002] 4.3.6. SESSION MESSAGE PACKET

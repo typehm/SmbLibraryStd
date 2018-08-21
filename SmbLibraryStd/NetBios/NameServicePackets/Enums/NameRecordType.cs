@@ -1,5 +1,5 @@
 
-namespace SMBLibrary.NetBios
+namespace SmbLibraryStd.NetBios
 {
     public enum NameRecordType : ushort
     {
