@@ -186,6 +186,15 @@ FakesAssemblies/
 # JetBrains IDE files
 .idea
 
+# AssemblyInfo.cs is generated at compile time, so shouldn't be added
+SmbLibraryStd/Properties/AssemblyInfo.cs
+
+# Vim swap files
+*.sw*
+
+# version.txt is generated based on date and time
+version.txt
+
 # =========================
 # Operating System Files
 # =========================
