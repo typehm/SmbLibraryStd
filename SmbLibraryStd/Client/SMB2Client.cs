@@ -247,7 +247,7 @@ namespace SmbLibraryStd.Client
             {
                 // We ignore calls for old sockets which we no longer use
                 // See: http://rajputyh.blogspot.co.il/2010/04/solve-exception-message-iasyncresult.html
-                return;
+                //return;
             }
 
             ConnectionState state = (ConnectionState)ar.AsyncState;
@@ -279,12 +279,27 @@ namespace SmbLibraryStd.Client
             }
             else
             {
-                NBTConnectionReceiveBuffer buffer = state.ReceiveBuffer;
-                buffer.SetNumberOfBytesReceived(numberOfBytesReceived);
-                ProcessConnectionBuffer(state);
-
                 try
                 {
+                    NBTConnectionReceiveBuffer buffer = state.ReceiveBuffer;
+                    buffer.SetNumberOfBytesReceived(numberOfBytesReceived);
+                    ProcessConnectionBuffer(state);
+
+                    //while (true)
+                    //{
+                        m_currentAsyncResult = m_clientSocket.BeginReceive(buffer.Buffer, buffer.WriteOffset, buffer.AvailableLength, SocketFlags.None, new AsyncCallback(OnClientSocketReceive), state);
+                    //    if (!m_currentAsyncResult.IsCompleted)
+                    //        break;
+
+                    //    Debug.Log("BeginReceive WriteOffset=" + buffer.WriteOffset + "   AvailableLength=" + buffer.AvailableLength + "  IsCompleted=" + m_currentAsyncResult.IsCompleted + " CompletedSynchronously=" + m_currentAsyncResult.CompletedSynchronously);
+                    //    Thread.Sleep(100);
+                    //}
+                }
+                catch ( System.IO.InvalidDataException e )
+                {
+                    Log("[ReceiveCallback] BeginReceive InvalidDataException" + e);
+                    NBTConnectionReceiveBuffer buffer = state.ReceiveBuffer;
+                    buffer.SetNumberOfBytesReceived(numberOfBytesReceived);
                     m_currentAsyncResult = m_clientSocket.BeginReceive(buffer.Buffer, buffer.WriteOffset, buffer.AvailableLength, SocketFlags.None, new AsyncCallback(OnClientSocketReceive), state);
                 }
                 catch (ObjectDisposedException)
@@ -310,8 +325,13 @@ namespace SmbLibraryStd.Client
                 {
                     packet = receiveBuffer.DequeuePacket();
                 }
-                catch (Exception)
+                catch(System.IO.InvalidDataException e)
                 {
+                    Debug.Log(e);
+                }
+                catch (Exception e)
+                {
+                    Debug.Log(e);
                     m_clientSocket.Close();
                     break;
                 }
@@ -346,7 +366,7 @@ namespace SmbLibraryStd.Client
                 }
                 catch (Exception ex)
                 {
-                    Log("Invalid SMB2 response: " + ex.Message);
+                    Log("Invalid SMB2 response: " + ex.ToString() );
                     m_clientSocket.Close();
                     m_isConnected = false;
                     return;
