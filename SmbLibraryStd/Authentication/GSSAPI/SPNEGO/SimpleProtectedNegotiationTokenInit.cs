@@ -173,7 +173,7 @@ namespace SmbLibraryStd.Authentication.GSSAPI
         {
             int constructionLength = DerEncodingHelper.ReadLength(buffer, ref offset);
             byte tag = ByteReader.ReadByte(buffer, ref offset);
-            if (tag != (byte)DerEncodingTag.ByteArray)
+            if (tag != (byte)DerEncodingTag.ByteArray && tag != (byte)DerEncodingTag.Sequence)
             {
                 throw new InvalidDataException();
             }
